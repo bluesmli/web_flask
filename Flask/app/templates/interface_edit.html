@@ -1,0 +1,118 @@
+{% extends "welcome.html" %}
+{% block main %}
+
+<div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">接口信息</font></div>
+
+     <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js">
+    </script>
+    <style>
+        input{
+            width: 85%;
+            height: 30px;
+        }
+        .interTable {
+            width:100%
+
+        }
+    select{
+
+        width: auto;
+        padding: 0 2%;
+        margin: 0;
+
+        }
+
+    option{
+
+    text-align:center;
+
+    }
+    </style>
+    <script>
+
+    function validate(){
+            if($('#InterfaceName').val()==''|| $('#InterFaceUrl').val()==''){
+                $('#save').attr({"disabled":"disabled"});
+                $('#InterfaceName').after('<font id=message color="red">接口名称不能为空!</font>');
+                $('#InterFaceUrl').after('<font id=message color="red">接口地址不能为空!</font>');
+                setTimeout("window.location.reload(true);",1000)
+
+            }else{
+                $('#save').removeAttr("disabled");
+                return true;
+            }
+    }
+    </script>
+</head>
+<body>
+<form action="interfacemanage" method="post">
+   <table class="interTable">
+       <tr>
+            <td style="width: 5%">
+                项目名称:
+           </td>
+           <td>
+               <input type="text"  name='projectsName' id="projectsName" maxlength=200><br>
+           </td>
+       </tr>
+       <tr>
+           <td style="width: 5%">
+                接口名称:
+           </td>
+           <td>
+               <input type="text"  name='InterfaceName' id="InterfaceName" maxlength=200><br>
+           </td>
+       </tr>
+       <tr>
+           <td>
+                接口地址:
+           </td>
+           <td>
+               <input type="text" name='InterFaceUrl' id="InterFaceUrl" maxlength=200><br>
+           </td>
+       </tr>
+        <tr>
+           <td>
+                接口参数:
+           </td>
+           <td>
+               <input type="text" name="param" id="Param" maxlength=200><br>
+           </td>
+       </tr>
+       <tr>
+         <td>
+                请求方式:
+           </td>
+           <td>
+               <select style="height:30px" name="way">
+                   <option style="text-align: center">GET</option>
+                   <option  style="text-align: center">POST</option>
+               </select>
+           </td>
+       </tr>
+       <tr>
+           <td>
+                请求头:
+           </td>
+           <td>
+               <input type="text" name="header" id="header" maxlength=200><br>
+           </td>
+
+
+       </tr>
+       <tr>
+
+        <td>
+                COOKIE:
+           </td>
+        <td>
+               <input type="text" id="cookie" maxlength=200><br>
+        </td>
+       </tr>
+   </table>
+    <button id='save' type="submit" style="background: lawngreen;width:70px;height: 30px" onclick="validate()">提交</button>
+    <button type="button"  style="background: lawngreen;width:70px;height: 30px" onclick="javascript:history.go(-1)">返回</button>
+
+</form>
+
+{% endblock %}

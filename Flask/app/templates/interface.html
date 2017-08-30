@@ -1,0 +1,88 @@
+{% extends "welcome.html" %}
+
+{% block main %}
+    <div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">测试接口</font></div>
+<style type="text/css">
+            form {
+                    margin-bottom: 18px;
+                    background-color: #e1f5ff;
+                }
+
+                .formField {
+                    overflow: auto;
+                    width: 100%;
+                    margin: 5px 0;
+                }
+
+                label {
+                min-width: 100px;
+                float: left;
+                display: block;
+                margin-right: 10px;
+                text-transform: capitalize;
+            }
+
+                .formText {
+                    display: block;
+                    float: left;
+                    border: double;
+                    width: 50%;
+                    padding:0px;
+                    margin:0px;
+                    border:2px solid #d7d7e6;
+                    resize:none;
+                    rows:100;
+                    cols:100
+                }
+</style>
+<form action="{{ url_for("interfaces_test") }}" method="post" class="form">
+                <div class="formField clearfix" style="text-align: right">
+                    <label for="projects" style="text-align: left">项目名称:</label>
+                    <select  class="formText" name="projects" id=‘projects’ style="width:15.3%;">
+                        {% for pro in project %}
+                             <option style="text-align: center" value ="{{ pro.name }}">{{ pro.name }}</option>
+                        {% endfor %}
+		            </select>
+                <button type="submit" style="background-color: #5cb85c;color: #fff">运行</button>
+                </div>
+                <div class="formField clearfix">
+                    <label for="URl">地址:</label>
+                    <input type="text" class="formText" name='URl' id="URl" value="{{ URL }}"/>
+                </div>
+                 <div class="formField clearfix">
+                    <label for="requestheader">请求头信息:</label>
+                    <textarea class="formText" name='requestheader' id="requestheader" style="width: 70%;height:100px">{{ requestheader }}</textarea>
+                </div>
+                <div class="formField clearfix">
+                    <label for="parameter">请求参数:</label>
+                    <textarea class="formText" name='parameter' id="parameter" style="width: 70%;height:100px">{{ p }}</textarea>
+                </div>
+                <div class="formField clearfix">
+                    <label for="transaction_way">传输方式:</label>
+                   <select  class="formText" name="transaction_way" id=‘transaction_way’ style="width:15.3%;text-align: center">
+                      <option value ="GET">GET</option>
+                      <option value ="POST">POST</option>
+		            </select>
+                </div>
+                   <div class="formField clearfix">
+                    <label for="bool_redict">跟随重定向:</label>
+                   <select  class="formText" name="bool_redict" id=‘bool_redict’ style="width:15.3%;text-align: center">
+                      <option value ="是">是</option>
+                      <option value ="否">否</option>
+		            </select>
+                </div>
+                <div class="formField clearfix">
+                    <label for="header">响应头信息:</label>
+                    <textarea class="formText" name="ResponseHeader" id="ResponseHeader" style="width: 70%;height:100px">{{ headers }}</textarea>
+                </div>
+                <div class="formField clearfix">
+                    <label for="response">响应信息:</label>
+                    <textarea class="formText" name="response" id="response" style="width: 70%;height:250px;resize:none;">{{ response }}</textarea>
+                </div>
+
+
+            </form>
+
+
+{% endblock %}
+

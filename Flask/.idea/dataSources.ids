@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - app.db" uuid="4fd3b4be-07ae-4b34-9bcd-04f426c60711">
+    <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="interfaces" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="interface_name" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="projects_name" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="interface_url" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="interface_param" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="interface_way" sqlType="VARCHAR(10)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="interface_header" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="interface_cookie" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id),unique (interface_name"/>
+    </table>
+    <table name="migrate_version" schema="" catalog="" type="TABLE">
+      <column name="repository_id" sqlType="VARCHAR(250)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="repository_path" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="version" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="repository_id"/>
+    </table>
+    <table name="models" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <primary-key columns="id),unique (name"/>
+    </table>
+    <table name="user" schema="" catalog="" type="TABLE">
+      <column name="user_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="user_name" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR(64)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="user_register_time" sqlType="DATETIME" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="user_id),unique (user_name"/>
+    </table>
+  </data-source>
+</component>

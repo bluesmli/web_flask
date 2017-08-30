@@ -1,0 +1,39 @@
+<!-- extend base layout -->
+{% extends "welcome.html" %}
+
+{% block main %}
+    <div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:#0c0c28;font-weight: bold;font-size: 20px;height:30px;">用户信息</font></div>
+    <br>
+    <div style="background-color: white;padding-top: 0px;height: 40px;text-align: left;">
+    <form action="usermanege" method="post" >
+      用户名:<input type="text" name="username" class="username" style="background-color: #e1f5ff" value="{{ username }}">
+      <button type="submit">查询</button>
+      <button type="button" onclick="javascrtpt:window.location.href='/user_add'">新增</button>
+    </form>
+    
+    
+    </div>
+    <table style="text-align: center;width: 100%">
+      <tr>
+         <th>序号 </th>
+         <th>name</th>
+          <th>注册时间</th>
+         <th colspan="2" >操作</th>
+      </tr>
+    {% for user in users  %}
+        <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ user.user_name }}</td>
+        <td>{{ user.user_register_time }}</td>
+        <td><a href="{{ url_for('user_edit',id= user.user_id) }}">编辑</a>  <a href="{{ url_for('user_delete',id= user.user_id) }}">删除</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+    <div class="pages" style="text-align: center;">
+        {% if pagination %}
+            {% import 'help.html' as helper %}
+            {{ helper.return_page_data(pagination,'userpage') }}
+        {% endif %}
+    </div>
+
+{% endblock %}

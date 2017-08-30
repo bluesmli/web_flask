@@ -1,0 +1,26 @@
+<!-- extend base layout -->
+{% extends "welcome.html" %}
+
+{% block main %}
+<form action="project_edit" method="post">
+    {% if Name %}
+        项目名称:<input type="text" name="name" class="name" value="{{ Name }}">
+    {% else %}
+        项目名称:<input type="text" name="name" class="name" >
+    {% endif %}
+
+    项目状态:<select name="status">
+			  <option value ="未开始">未开始</option>
+			  <option value ="已开始">已开始</option>
+			  <option value="测试中">测试中</option>
+			  <option value="已完成">已完成</option>
+		</select>
+    {% if id %}
+         <input type="hidden" name="id" class="id" value="{{ id }}">
+    {% else %}
+        <input type="hidden" name="id" class="id">
+    {% endif %}
+    <button type="submit">提交</button>
+    <button type="button" onclick="javascrtpt:window.location.href='/projects'">返回</button>
+</form>
+{% endblock %}

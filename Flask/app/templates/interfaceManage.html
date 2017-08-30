@@ -1,0 +1,50 @@
+<!-- extend base layout -->
+{% extends "welcome.html" %}
+
+{% block main %}
+    <div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">接口信息</font></div>
+    <br>
+    <div style="background-color: white;padding-top: 0px;height: 40px;text-align: left;">
+    <form action="projects" method="post" >
+      项目名称:<input type="text" name="projectname" class="projectname" style="background-color: #e1f5ff">
+      <button type="submit">查询</button>
+      <button type="button" onclick="javascrtpt:window.location.href='/interface_add'">新增</button>
+    </form>
+    
+    
+    </div>
+    <table style="text-align: center;width: 100%">
+      <tr>
+          <th>序号 </th>
+          <th>项目名称</th>
+          <th>接口名称</th>
+          <th>接口地址</th>
+          <th>接口参数</th>
+          <th>传输方式</th>
+          <th>头信息</th>
+          <th>cookie</th>
+         <th colspan="2" >操作</th>
+      </tr>
+    {% for inter in interfaces%}
+        <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ inter.projects_name }}</td>
+        <td>{{ inter.interface_name }}</td>
+        <td>{{ inter.interface_url }}</td>
+        {% if inter.interface_param %}<td>{{ inter.interface_param }}</td>{% else %}<td></td>{% endif %}
+        {% if inter.interface_way %}<td>{{ inter.interface_way }}</td>{% else %}<td></td>{% endif %}
+        {% if inter.interface_param %}<td>{{ inter.interface_param }}</td>{% else %}<td></td>{% endif %}
+        {% if inter.interface_header %}<td>{{ inter.interface_header }}</td>{% else %}<td></td>{% endif %}
+        {% if inter.interface_cookie %}<td>{{ inter.interface_cookie }}</td>{% else %}<td></td>{% endif %}
+        <td><a href="#">编辑</a>  <a href="#">删除</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+    <div class="pages" style="text-align: right;">
+        {% if pagination %}
+            {% import 'help.html' as helper %}
+            {{ helper.return_page_data(pagination,'interfacespage') }}
+        {% endif %}
+    </div>
+
+{% endblock %}

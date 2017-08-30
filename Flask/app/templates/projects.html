@@ -1,0 +1,47 @@
+<!-- extend base layout -->
+{% extends "welcome.html" %}
+
+{% block main %}
+    <div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">项目信息</font></div>
+    <br>
+    <div style="background-color: white;padding-top: 0px;height: 40px;text-align: left;">
+    <form action="projects" method="post" >
+      项目名称:<input type="text" name="projectname" class="projectname" style="background-color: #e1f5ff" value="{{ projectname }}">
+      <button type="submit">查询</button>
+      <button type="button" onclick="javascrtpt:window.location.href='/project_add'">新增</button>
+    </form>
+    
+    
+    </div>
+    <table style="text-align: center;width: 100%">
+      <tr>
+         <th>序号 </th>
+         <th>项目名称</th>
+          <th>项目状态</th>
+         <th colspan="2" >操作</th>
+      </tr>
+    {% for pro in Models%}
+        <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ pro.name }}</td>
+        {% if pro.status==0 %}
+            <td>未开始</td>
+        {% elif pro.status==1%}
+            <td>已开始</td>
+        {% elif pro.status==2%}
+            <td>测试中</td>
+        {% else %}
+            <td>已完成</td>
+        {% endif %}
+        <td><a href="{{ url_for('project_edit',id= pro.id) }}">编辑</a>  <a href="{{ url_for('project_del',id= pro.id) }}">删除</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+    <div class="pages" style="text-align: right;">
+        {% if pagination %}
+            {% import 'help.html' as helper %}
+            {{ helper.return_page_data(pagination,'project_page') }}
+        {% endif %}
+    </div>
+
+{% endblock %}

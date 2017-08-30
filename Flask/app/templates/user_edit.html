@@ -1,0 +1,16 @@
+{% extends "welcome.html" %}
+
+{% block main %}
+<form action="user_edit" method="post">
+    {% if userid %}
+        用户名:<input type="text" name="username" class="username" value="{{ Name }}">
+    {% else %}
+        用户名:<input type="text" name="username" class="username">
+    {% endif %}
+
+    密码:<input type="password" name="password" class="password" placeholder="Password">
+    <input type="hidden" name="userid" class="userid" value="{{ userid }}">
+    <button type="submit">提交</button>
+    <button type="button" onclick="javascrtpt:window.location.href='/usermanege'">返回</button>
+</form>
+{% endblock %}
