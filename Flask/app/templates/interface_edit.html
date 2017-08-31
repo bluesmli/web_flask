@@ -52,7 +52,11 @@
                 项目名称:
            </td>
            <td>
+               {% if inter %}
+               <input type="text"  name='projectsName' id="projectsName" maxlength=200 value="{{ inter.projects_name }}"><br>
+               {% else %}
                <input type="text"  name='projectsName' id="projectsName" maxlength=200><br>
+               {% endif %}
            </td>
        </tr>
        <tr>
@@ -60,7 +64,11 @@
                 接口名称:
            </td>
            <td>
+               {% if inter %}
+               <input type="text"  name='InterfaceName' id="InterfaceName" maxlength=200 value="{{ inter.interface_name }}"><br>
+                {% else %}
                <input type="text"  name='InterfaceName' id="InterfaceName" maxlength=200><br>
+               {% endif %}
            </td>
        </tr>
        <tr>
@@ -68,15 +76,23 @@
                 接口地址:
            </td>
            <td>
-               <input type="text" name='InterFaceUrl' id="InterFaceUrl" maxlength=200><br>
+               {% if inter %}
+               <input type="text" name='InterFaceUrl' id="InterFaceUrl" maxlength=200 value="{{ inter.interface_url }}"><br>
+               {% else %}
+                <input type="text" name='InterFaceUrl' id="InterFaceUrl" maxlength=200><br>
+               {% endif %}
            </td>
        </tr>
         <tr>
            <td>
                 接口参数:
            </td>
-           <td>
+           <td> {% if inter %}
+               <input type="text" name="param" id="Param" maxlength=200 value="{{ inter.interface_param }}"><br>
+                {% else %}
                <input type="text" name="param" id="Param" maxlength=200><br>
+                {% endif %}
+
            </td>
        </tr>
        <tr>
@@ -95,7 +111,11 @@
                 请求头:
            </td>
            <td>
+               {% if inter %}
+               <input type="text" name="header" id="header" maxlength=200 value="{{ inter.interface_header }}"><br>
+               {% else %}
                <input type="text" name="header" id="header" maxlength=200><br>
+               {% endif %}
            </td>
 
 
@@ -105,8 +125,11 @@
         <td>
                 COOKIE:
            </td>
-        <td>
-               <input type="text" id="cookie" maxlength=200><br>
+        <td>   {% if inter %}
+               <input type="text" id="cookie" maxlength=200 value="{{ inter.interface_cookie  }}"><br>
+               {% else %}
+                <input type="text" id="cookie" maxlength=200 ><br>
+                {% endif %}
         </td>
        </tr>
    </table>

@@ -49,8 +49,8 @@ class interface_editForm(FlaskForm):
     header=StringField('header')
     cookie=StringField('cookie')
 
-
-
+class interface_serachForm(FlaskForm):
+    projectname=StringField('projectname',validators=[DataRequired()])
 
 
 
