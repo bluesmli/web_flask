@@ -41,6 +41,7 @@ class interface_testForm(FlaskForm):
     response=StringField('response',validators=[DataRequired()])
 
 class interface_editForm(FlaskForm):
+    interid=StringField('interid',validators=[DataRequired()])
     projectsName=StringField('projectsName',validators=[DataRequired()])
     InterfaceName=StringField('InterfaceName',validators=[DataRequired()])
     InterFaceUrl=StringField('InterFaceUrl',validators=[DataRequired()])
@@ -51,8 +52,3 @@ class interface_editForm(FlaskForm):
 
 class interface_serachForm(FlaskForm):
     projectname=StringField('projectname',validators=[DataRequired()])
-
-
-
-
-    

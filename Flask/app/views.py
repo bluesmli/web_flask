@@ -327,7 +327,7 @@ def interfaces_test():
 '''
 **************************************接口管理**********************************************
 '''
-
+@app.route('/interface_edit/interfacemanage',methods=['GET','POST'])
 @app.route('/interfacemanage',methods=['GET','POST'])
 @login_required
 
@@ -335,6 +335,7 @@ def interfacemanage():
 
     if request.method=='POST':
         form=interface_editForm()
+        interid=form.interid.data
         projectsName='' if form.projectsName.data is None else form.projectsName.data
         InterfaceName='' if form.InterfaceName.data is None else form.InterfaceName.data
         InterFaceUrl='' if form.InterFaceUrl.data is None else form.InterFaceUrl.data
@@ -342,19 +343,29 @@ def interfacemanage():
         way='' if form.way.data is None else form.way.data
         header='' if form.header.data is None else form.header.data
         cookie='' if form.cookie.data is None else form.cookie.data
-
-        add=models.Interfaces(
-          interface_name=InterfaceName,
-          interface_url=InterFaceUrl,
-          projects_name=projectsName,
-          interface_param=param,                                #接口参数
-          interface_way=way,                                    #方法
-          interface_header=header,                              #头信息
-          interface_cookie=cookie
-
-        )
-        db.session.add(add)
-        db.session.commit()
+        print interid
+        if interid is None:
+            add=models.Interfaces(
+              interface_name=InterfaceName,
+              interface_url=InterFaceUrl,
+              projects_name=projectsName,
+              interface_param=param,                                #接口参数
+              interface_way=way,                                    #方法
+              interface_header=header,                              #头信息
+              interface_cookie=cookie
+            )
+            db.session.add(add)
+            db.session.commit()
+        else:
+            InterF=models.Interfaces.query.filter_by(id=interid).first()
+            InterF.interface_name=InterfaceName
+            InterF.projects_name=projectsName
+            InterF.interface_url=InterFaceUrl
+            InterF.interface_param=param
+            InterF.interface_way=way
+            InterF.interface_header=header
+            InterF.interface_cookie=cookie
+            db.session.commit()
     pagination=models.Interfaces.query.paginate(1, 13, False)
     interfaces=pagination.items
     return render_template("interfaceManage.html",
@@ -387,7 +398,8 @@ def interface_edit(id):
     if interface:
        return render_template("interface_edit.html",
                                Name=request.cookies['Name'],
-                               inter=interface)
+                               inter=interface,
+                               interid=id)
 
 
 @app.route('/interface_del/<string:id>',methods=['GET','POST'])
