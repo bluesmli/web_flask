@@ -2,21 +2,21 @@
 {% extends "welcome.html" %}
 
 {% block main %}
-    <div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:#0c0c28;font-weight: bold;font-size: 20px;height:30px;">用户信息</font></div>
+    <span><font style="color:#337ab7;font-weight: bold;font-size: 20px;height:30px;">用户信息</font></span>
     <br>
-    <div style="background-color: white;padding-top: 0px;height: 40px;text-align: left;">
-    <form action="usermanege" method="post" >
-      用户名:<input type="text" name="username" class="username" style="background-color: #e1f5ff" value="{{ username }}">
-      <button type="submit">查询</button>
-      <button type="button" onclick="javascrtpt:window.location.href='/user_add'">新增</button>
-    </form>
-    
-    
+    <br>
+    <div style="background-color: #e1f5ff;padding-top: 0px;height: 40px;text-align: left;">
+        <form action="usermanege" method="post" >
+         <span><font style='font-size: 15px;height:50px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif'>用户名</font></span>
+                <input   type="text" name="username"  style="background-color: #e1f5ff;value={{ username }}">
+          <button class="btn btn-info" type="submit">查询</button>
+          <button class="btn btn-info" type="button" onclick="javascrtpt:window.location.href='/user_add'">新增</button>
+        </form>
     </div>
-    <table style="text-align: center;width: 100%">
+    <table class="table table-hover table-condensed table-bordered table table-striped" style="text-align: center;width: 100%">
       <tr>
          <th>序号 </th>
-         <th>name</th>
+         <th>姓名</th>
           <th>注册时间</th>
          <th colspan="2" >操作</th>
       </tr>
@@ -25,7 +25,7 @@
         <td>{{ loop.index }}</td>
         <td>{{ user.user_name }}</td>
         <td>{{ user.user_register_time }}</td>
-        <td><a href="{{ url_for('user_edit',id= user.user_id) }}">编辑</a>  <a href="{{ url_for('user_delete',id= user.user_id) }}">删除</a></td>
+        <td><a style="color: #0e0e0e" href="{{ url_for('user_edit',id= user.user_id) }}" class="label label-info">编辑</a>  <a href="{{ url_for('user_delete',id= user.user_id) }}" class="label label-info" style="color: #0e0e0e">删除</a></td>
         </tr>
     {% endfor %}
     </table>

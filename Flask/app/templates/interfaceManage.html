@@ -2,18 +2,18 @@
 {% extends "welcome.html" %}
 
 {% block main %}
-    <div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">接口信息</font></div>
+    <div style="background-color: #e1f5ff;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">接口信息</font></div>
     <br>
-    <div style="background-color: white;padding-top: 0px;height: 40px;text-align: left;">
+    <div style="background-color: #e1f5ff;padding-top: 0px;height: 40px;text-align: left;">
     <form action="interface_serach" method="post" >
       项目名称:<input type="text" name="projectname" class="projectname" style="background-color: #e1f5ff">
-      <button type="submit">查询</button>
-      <button type="button" onclick="javascript:window.location.href='/interface_add'">新增</button>
+      <button type="submit" class="btn btn-info">查询</button>
+      <button type="button" class="btn btn-info" onclick="javascript:window.location.href='/interface_add'">新增</button>
     </form>
     
     
     </div>
-    <table style="text-align: center;width: 100%">
+    <table style="text-align: center;width: 100%" class="table table-striped">
       <tr>
           <th>序号 </th>
           <th>项目名称</th>
@@ -35,7 +35,7 @@
         {% if inter.interface_way %}<td>{{ inter.interface_way }}</td>{% else %}<td></td>{% endif %}
         {% if inter.interface_header %}<td>{{ inter.interface_header }}</td>{% else %}<td></td>{% endif %}
         {% if inter.interface_cookie %}<td>{{ inter.interface_cookie }}</td>{% else %}<td></td>{% endif %}
-        <td><a href="{{ url_for('interface_edit',id= inter.id) }}">编辑</a>  <a href="{{ url_for('interface_del',id= inter.id) }}">删除</a></td>
+        <td><a style="color: #0e0e0e" class="label label-info" href="{{ url_for('interface_edit',id= inter.id) }}">编辑</a>  <a  style="color: #0e0e0e" class="label label-info" href="{{ url_for('interface_del',id= inter.id) }}">删除</a></td>
         </tr>
     {% endfor %}
     </table>

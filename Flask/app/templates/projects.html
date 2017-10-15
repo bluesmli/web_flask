@@ -2,18 +2,18 @@
 {% extends "welcome.html" %}
 
 {% block main %}
-    <div style="background-color: #0eaaf2;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">项目信息</font></div>
+    <div style="background-color: #e1f5ff;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">项目信息</font></div>
     <br>
-    <div style="background-color: white;padding-top: 0px;height: 40px;text-align: left;">
+    <div style="background-color: #e1f5ff;padding-top: 0px;height: 40px;text-align: left;">
     <form action="projects" method="post" >
       项目名称:<input type="text" name="projectname" class="projectname" style="background-color: #e1f5ff" value="{{ projectname }}">
-      <button type="submit">查询</button>
-      <button type="button" onclick="javascrtpt:window.location.href='/project_add'">新增</button>
+      <button type="submit" class="btn btn-info">查询</button>
+      <button type="button" class="btn btn-info" onclick="javascrtpt:window.location.href='/project_add'">新增</button>
     </form>
     
     
     </div>
-    <table style="text-align: center;width: 100%">
+    <table style="text-align: center;width: 100%" class="table table-striped">
       <tr>
          <th>序号 </th>
          <th>项目名称</th>
@@ -33,7 +33,7 @@
         {% else %}
             <td>已完成</td>
         {% endif %}
-        <td><a href="{{ url_for('project_edit',id= pro.id) }}">编辑</a>  <a href="{{ url_for('project_del',id= pro.id) }}">删除</a></td>
+        <td><a style="color: #0e0e0e" href="{{ url_for('project_edit',id= pro.id) }}" class="label label-info">编辑</a>  <a style="color: #0e0e0e" class="label label-info" href="{{ url_for('project_del',id= pro.id) }}">删除</a></td>
         </tr>
     {% endfor %}
     </table>

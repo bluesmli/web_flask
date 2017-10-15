@@ -1,6 +1,6 @@
 {% macro return_page_data(page_data,page_function) %}
     <div class="pages">
-        <ul class="page_data">
+        <ul class="pagination">
             <li><a href="{{ url_for(page_function,page = 1) }}">首页</a></li>
             {% if page_data.has_prev %}
               <li><a href="{{ url_for(page_function,page =page_data.prev_num) }}">>«</a></li>
