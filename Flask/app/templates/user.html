@@ -25,7 +25,8 @@
         <td>{{ loop.index }}</td>
         <td>{{ user.user_name }}</td>
         <td>{{ user.user_register_time }}</td>
-        <td><a style="color: #0e0e0e" href="{{ url_for('user_edit',id= user.user_id) }}" class="label label-info">编辑</a>  <a href="{{ url_for('user_delete',id= user.user_id) }}" class="label label-info" style="color: #0e0e0e">删除</a></td>
+        <td><a style="color: #0e0e0e" href="{{ url_for('user_edit',id= user.user_id) }}" class="label label-info">编辑</a>
+            <a onclick="return confirm('确定要删除吗?')" href="{{ url_for('user_delete',id= user.user_id) }}" class="label label-info" style="color: #0e0e0e">删除</a></td>
         </tr>
     {% endfor %}
     </table>
@@ -35,5 +36,14 @@
             {{ helper.return_page_data(pagination,'userpage') }}
         {% endif %}
     </div>
-
+    <script type="text/javascript">
+      window.onload=function(){
+          var dates=document.getElementsByTagName('td')
+          for (var i=0;i<dates.length;i++){
+              if(dates[i].innerText.length>=26){
+                  dates[i].innerText=dates[i].innerText.split('.')[0]
+              }
+          }
+      }
+    </script>
 {% endblock %}

@@ -52,3 +52,19 @@ class interface_editForm(FlaskForm):
 
 class interface_serachForm(FlaskForm):
     projectname=StringField('projectname',validators=[DataRequired()])
+
+
+class CaseForm(FlaskForm):
+    Casename=StringField('Casename',validators=[DataRequired()])
+    CaseDes=StringField('CaseDes',validators=[DataRequired()])
+    projects=StringField('projects',validators=[DataRequired()])
+
+class CaseInterFaceSaveForm(FlaskForm):
+    URL=StringField('URL',validators=[DataRequired()])
+    requestheader=StringField('requestheader')
+    parameter=StringField('parameter')
+    transaction_way=StringField('transaction_way')
+    bool_redict=StringField('bool_redict')
+    jurge=StringField('jurge')
+    caseName=StringField('caseName')
+    InterfaceName=StringField('InterfaceName')

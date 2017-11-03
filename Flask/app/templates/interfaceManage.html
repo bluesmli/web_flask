@@ -13,7 +13,7 @@
     
     
     </div>
-    <table style="text-align: center;width: 100%" class="table table-striped">
+    <table style="text-align: center;width: 100%" class="table table-hover table-condensed table-bordered table table-striped">
       <tr>
           <th>序号 </th>
           <th>项目名称</th>
@@ -35,7 +35,8 @@
         {% if inter.interface_way %}<td>{{ inter.interface_way }}</td>{% else %}<td></td>{% endif %}
         {% if inter.interface_header %}<td>{{ inter.interface_header }}</td>{% else %}<td></td>{% endif %}
         {% if inter.interface_cookie %}<td>{{ inter.interface_cookie }}</td>{% else %}<td></td>{% endif %}
-        <td><a style="color: #0e0e0e" class="label label-info" href="{{ url_for('interface_edit',id= inter.id) }}">编辑</a>  <a  style="color: #0e0e0e" class="label label-info" href="{{ url_for('interface_del',id= inter.id) }}">删除</a></td>
+        <td><a style="color: #0e0e0e" class="label label-info" href="{{ url_for('interface_edit',id= inter.id) }}">编辑</a>
+            <a  onclick="return confirm('确定要删除吗?')" style="color: #0e0e0e" class="label label-info" href="{{ url_for('interface_del',id= inter.id) }}">删除</a></td>
         </tr>
     {% endfor %}
     </table>
@@ -45,5 +46,16 @@
             {{ helper.return_page_data(pagination,'interfacespage') }}
         {% endif %}
     </div>
+
+    <script type="text/javascript">
+            window.onload=function(){
+                var tds=document.getElementsByTagName('td')
+                for (var i= 0;i<tds.length;i++){
+                    if (tds[i].innerText=='None'){
+                        tds[i].innerText=tds[i].innerText.replace('None','');
+                    }
+                }
+            }
+    </script>
 
 {% endblock %}

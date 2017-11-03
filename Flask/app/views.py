@@ -1,5 +1,5 @@
 #coding:utf-8
-import  datetime,random
+import  datetime,random,json,os
 
 from flask import render_template, redirect, session, url_for, request, make_response,g
 from functools import wraps
@@ -8,7 +8,7 @@ from app.Utils.Requests import getReq,postReq
 from form import LoginForm,registerForm,user_editForm,\
     usermanegeForm,project_editForm,projectsForm,\
     interface_testForm,interface_editForm,\
-    interface_serachForm
+    interface_serachForm,CaseForm,CaseInterFaceSaveForm
 from models import User
 
 
@@ -91,6 +91,14 @@ def userpage():
     user=pagination.items
     return render_template("user.html",users=user,pagination=pagination,Name=request.cookies['Name'])
 
+
+@app.route('/CheckUserAdd',methods=['GET','POST'])
+@login_required
+def CheckUserAdd():
+    username= request.values['username']
+    me=User.query.filter_by(user_name=username).first()
+    if me:
+        return u'用户已存在'
 
 @app.route('/usermanege',methods=['GET','POST'])
 @login_required
@@ -238,7 +246,7 @@ def projectsEdit():
     else:
         status=3
     print name,status
-    id=form.id.data   
+    id=form.id.data
     if request.method=='POST' and id:
         me=models.Models.query.filter_by(id=id).first()
         me.name =name
@@ -431,12 +439,156 @@ def interface_serach():
 
 
 
+@app.route('/casemanage',methods=['GET','POST'])
+@login_required
+
+def casemanage():
+    if request.method=='POST':
+        form=CaseForm()
+        Casename=form.Casename.data
+        CaseDes=form.CaseDes.data
+        projectname=form.projects.data
+        add=models.Case(
+           CaseName=Casename,
+           CaseDesciption=CaseDes,
+           ProjectsName=projectname
+        )
+        db.session.add(add)
+        db.session.commit()
+        #将用例信息写入文件
+
+
+    pagination=models.Case.query.paginate(1, 13, False)
+    Cases=pagination.items
+    return render_template("case.html",
+                            pagination=pagination,
+                            Cases=Cases,
+                            Name=request.cookies['Name'])
+
+
+@app.route('/case_add',methods=['GET','POST'])
+@login_required
+def case_add():
+     projects=models.Models.query.all()
+     return render_template("case_edit.html",
+                            project=projects,
+                            Name=request.cookies['Name']
+                            )
+
+
+@app.route('/CaseInterface_add',methods=['GET','POST'])
+@login_required
+def CaseInterface_add():
+    return render_template('CaseInterface_add.html')
+
+@app.route('/CaseInterfaceSave',methods=['GET','POST'])
+@login_required
+def CaseInterfaceSave():
+    form=CaseInterFaceSaveForm()
+    URL=form.URL.data
+    requestheader=form.requestheader.data
+    parameter=form.parameter.data
+    way=form.transaction_way.data
+    jurge=form.jurge.data
+    caseName=form.caseName.data
+    InterfaceName=form.InterfaceName.data
+    print jurge
+    add=models.Interfaces(
+              interface_name=InterfaceName,
+              interface_url=URL,
+              interface_param=parameter,                                #接口参数
+              interface_way=way,                                           #方法
+              interface_header=requestheader,                              #头信息
+              Assertion=jurge,
+              caseName=caseName
+            )
+    db.session.add(add)
+    db.session.commit()
+    print caseName
+
+
+
+    return render_template('CaseInterface_add.html')
 
 
 
 
 
+@app.route('/SaveCaseInfo',methods=['GET','POST'])
+def SaveCaseInfo():
+    Casename=request.values['Casename']
+    CaseDes=request.values['CaseDes']
+    projectname=request.values['projects']
+
+    add=models.Case(
+       CaseName=Casename,
+       CaseDesciption=CaseDes,
+       ProjectsName=projectname
+    )
+    db.session.add(add)
+    db.session.commit()
+    me=models.Case.query.filter_by(CaseName=Casename).first()
+    if me:
+        print me.id
+        return str(me.id)
 
 
+@app.route('/getShowCaseByName',methods=['GET','POST'])
+def getShowCaseByName():
+    Casename=request.values['Casename']
+    ShowInterFases=models.Interfaces.query.filter_by(caseName=Casename).all()
+    print ShowInterFases
+    jsondata=[]
+    for row in ShowInterFases:
+         result = {}
+         result['interface_name']=row.interface_name
+         result['interface_url']=row.interface_url
+         jsondata.append(result)
+    jsondatar=json.dumps(jsondata,ensure_ascii=False)
+    #去除首尾的中括号
+    return jsondatar
+
+
+'''
+创建用例文件方法
+'''
+@app.route('/createCase',methods=['GET','POST'])
+def createCase():
+    Case_dic={}
+    case_fir_dic={}
+    InterF=[]
+
+    Casename=request.values['Casename']
+    InterFaces=models.Interfaces.query.filter_by(caseName=Casename).all()
+    case=models.Case.query.filter_by(CaseName=Casename).all()
+    # 组成CaseName,Casedescription, ProjectName
+    CaseName=case[0].CaseName
+    Casedescription=case[0].CaseDesciption
+    ProjectName=case[0].ProjectsName
+
+    case_fir_dic['CaseName']=CaseName
+    case_fir_dic['Casedescription']=Casedescription
+    case_fir_dic['ProjectName']=ProjectName
+    for Inter in InterFaces:
+        dic={}
+        dic['id']=Inter.id
+        dic['InterfaceName']=Inter.interface_name
+        dic['url']=Inter.interface_url
+        dic['way']=Inter.interface_way
+        dic['RequestHeaders']=Inter.interface_header
+        dic['Param']=Inter.interface_param
+        dic['Assert']=Inter.Assertion
+        InterF.append(dic)
+
+    case_fir_dic['Interfaces']=InterF
+    case_fir_dic['Runstatus']=0
+    Case_dic['Case']=case_fir_dic
+    jsondata=json.dumps(Case_dic, indent=2)
+    fp = os.getcwdu()
+    path=fp[0:fp.find('Flask')]+'Flask'+os.path.sep+"app"+os.path.sep+"Cases"+os.path.sep+CaseName+".txt"
+    with open(path,'w') as f:
+        f.write(jsondata)
+    f.close()
+    return jsondata
 
 

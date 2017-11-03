@@ -5,6 +5,7 @@
     <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="{{ url_for('static',filename='css/util.css') }}"></script>
+    <script src="{{ url_for('static',filename='js/util.js') }}"></script>
     <meta charset="UTF-8">
     <title>接口自动化测试平台</title>
     <style type="text/css">
@@ -18,13 +19,13 @@
     left: 0;
     width: 100%;
     height: 50px;
-    background:#2d3741;
+    background:#205081;
     text-align: center;
 }
 .logout{
    margin-top: -10px;
    text-align:right;
-   background:#2d3741;
+   background:#205081;
    left: 0
 }
 
@@ -35,7 +36,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    top: 63px;
+    top: 62px;
     z-index: 99;
     overflow-y: scroll;
 }
@@ -89,6 +90,10 @@ input{
         padding: 4px 0px;
         border-radius: 3px; /*css3属性IE不支持*/
 }
+
+ul li a:hover{
+    transform: scale(1.2);
+}
     </style>
 </head>
 <body>
@@ -109,7 +114,7 @@ input{
             <li><a href="{{ url_for('projects') }}">项目管理</a></li>
             <li><a href="{{ url_for('interfacemanage') }}">接口管理</a></li>
             <li><a href="{{ url_for('interfaces_test') }}">接口测试</a></li>
-            <li><a href="#">测试用例管理</a></li>
+            <li><a href="{{ url_for('casemanage') }}">用例管理</a></li>
             <li><a href="#">测试报告</a></li>
         </ul>
     </div>

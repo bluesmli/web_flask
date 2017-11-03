@@ -1,0 +1,68 @@
+{% extends "welcome.html" %}
+
+{% block main %}
+
+
+    <div style="background-color: #e1f5ff;padding-top: 0px;height: 40px"><font style="color:black;font-weight: bold;font-size: 20px;height:30px;">用例信息</font></div>
+
+<form  class="form-horizontal"  action="casemanage" method="post" class="form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="Casename">用例名称</label>
+                    <div class="col-sm-4">
+                    <input type="text" class="form-control" name='Casename' id="Casename" value="{{ Casename }}"/>
+                     </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"  for="CaseDes">用例描述</label>
+                    <textarea class="form-control" rows="2" name="CaseDes" id="CaseDes" style="width: 50%;margin-left: 18%">{{ CaseDes }}</textarea>
+                </div>
+                <div class="form-group" >
+                    <label class="col-sm-2 control-label" for="projects">项目名称</label>
+                    <div class="col-sm-10">
+                    	<select  class="form-control" name="projects" id='projects' style="width:25%;">
+                        {% for pro in project %}
+                             <option style="text-align: center" value ="{{ pro.name }}">{{ pro.name }}</option>
+                        {% endfor %}
+		            </select>
+                    </div>
+                </div>
+                <button   onclick="CaseInfoSave()" id='caseInfoSave'style="margin-left: 17%" type="button"  class="btn btn-success" >用例信息保存</button>
+               <input type="hidden" class="caseid" name='caseid' id="caseid" />
+
+ </form>
+                <hr>
+
+<form  class="form-horizontal"  action="casemanage" method="post" class="form">
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"  for="CaseDes">接口信息</label>
+                 <button style="margin-left: 1%" type="button" onclick="window.open('/CaseInterface_add')" class="btn btn-success">增加接口</button>
+                 <br/><br/>
+
+                    <table class="table table-hover table-condensed table-bordered table table-striped" style="width: 50%;margin-left: 18%;text-align: center">
+                  <thead>
+                    <tr>
+                      <th>接口名称</th>
+                      <th>接口地址</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbody-result">
+
+                  </tbody>
+                </table>
+
+                </div>
+
+
+                <button  style="margin-left: 17%" type="button" onclick="createCase();" class="btn btn-success">创建用例</button>
+                <button  type="button" class="btn btn-success" onclick="javascript:history.go(-1)">返回</button>
+            </form>
+
+
+
+
+
+
+
+{% endblock %}
+
