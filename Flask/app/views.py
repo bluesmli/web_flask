@@ -8,7 +8,8 @@ from app.Utils.Requests import getReq,postReq
 from form import LoginForm,registerForm,user_editForm,\
     usermanegeForm,project_editForm,projectsForm,\
     interface_testForm,interface_editForm,\
-    interface_serachForm,CaseForm,CaseInterFaceSaveForm
+    interface_serachForm,CaseForm,CaseInterFaceSaveForm,\
+    CaseSerachForm
 from models import User
 
 
@@ -436,9 +437,6 @@ def interface_serach():
                             Name=request.cookies['Name'])
 
 
-
-
-
 @app.route('/casemanage',methods=['GET','POST'])
 @login_required
 
@@ -590,5 +588,23 @@ def createCase():
         f.write(jsondata)
     f.close()
     return jsondata
+
+
+'''
+查询用例功能
+'''
+@app.route('/CaseSerach',methods=['GET','POST'])
+@login_required
+def case_serach():
+    casedata=request.args['casename']
+    if request.args['casename'] is not None and request.args['casename']!="":
+        pagination =models.Case.query.filter_by(CaseName=casedata).paginate(1, 13, False)
+    else:
+        pagination=models.Case.query.paginate(1, 13, False)
+    Cases=pagination.items
+    return render_template("case.html",
+                            Cases=Cases,
+                            pagination=pagination,
+                            Name=request.cookies['Name'])
 
 

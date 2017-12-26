@@ -68,3 +68,6 @@ class CaseInterFaceSaveForm(FlaskForm):
     jurge=StringField('jurge')
     caseName=StringField('caseName')
     InterfaceName=StringField('InterfaceName')
+
+class CaseSerachForm(FlaskForm):
+    Casename=StringField('casename',validators=[DataRequired()])

@@ -1,7 +1,6 @@
 #coding:utf-8
 import requests
 import traceback
-
 import sys
 
 reload(sys)
@@ -15,8 +14,9 @@ def getReq(path,bool_redict,headers={},cookies={}):
                          cookies=cookies,
                          headers=headers,
                          allow_redirects=bool_redict,
-                         verify=False
+                         # verify=False
                          )
+       print req.content
        #解决编码
        print req.encoding
        if req.encoding is not None:
@@ -58,8 +58,5 @@ def postReq(path,data,bool_redict,headers={},cookies={},):
     except Exception as e:
 		print traceback.format_exc()
 		print e.message
-
-
-
 
 
