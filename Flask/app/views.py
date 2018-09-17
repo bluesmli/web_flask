@@ -1,7 +1,7 @@
 #coding:utf-8
 import  datetime,random,json,os
-
-from flask import render_template, redirect, session, url_for, request, make_response,g
+import pyethapp
+from flask import render_template, redirect, session, url_for, request, make_response,g,jsonify
 from functools import wraps
 from app import app, db, models
 from app.Utils.Requests import getReq,postReq
@@ -11,8 +11,12 @@ from form import LoginForm,registerForm,user_editForm,\
     interface_serachForm,CaseForm,CaseInterFaceSaveForm,\
     CaseSerachForm
 from models import User
+import hashlib
 
+from time import time
+from uuid import uuid4
 
+from flask import Flask,jsonify,request
 #确定用户是否登录装饰器
 def login_required(f):
     @wraps(f)
@@ -215,7 +219,7 @@ def projects():
 def project_edit(id):
     me=models.Models.query.filter_by(id=id).first()
     if me:
-       return render_template("project_edit.html",Name=me.name,id=id)
+       return render_template("project_edit.html",Name=me.name,id=id,developer=me.developer,tester=me.tester)
 
 @app.route('/project_del/<string:id>',methods=['GET','POST'])
 @login_required
@@ -235,9 +239,10 @@ def project_del(id):
 def projectsEdit():
     form =project_editForm()
     name=form.name.data
-
     status=form.status.data
-    print name,status
+    developer=form.developer.data
+    tester = form.tester.data
+    print name,status,developer,tester
     if status==u'未开始':
         status=0
     elif status==u'已开始':
@@ -246,9 +251,9 @@ def projectsEdit():
         status=2
     else:
         status=3
-    print name,status
     id=form.id.data
     if request.method=='POST' and id:
+        #print "hello world"
         me=models.Models.query.filter_by(id=id).first()
         me.name =name
         me.status=status
@@ -257,6 +262,8 @@ def projectsEdit():
         add=models.Models(
           name=name,
           status=status,
+          developer=developer,
+          tester=tester
         )
         db.session.add(add)
         db.session.commit()
@@ -334,7 +341,9 @@ def interfaces_test():
 
 
 '''
-**************************************接口管理**********************************************
+#*************************#
+#*********接口管理*********#
+#************************#
 '''
 @app.route('/interface_edit/interfacemanage',methods=['GET','POST'])
 @app.route('/interfacemanage',methods=['GET','POST'])
@@ -458,7 +467,7 @@ def casemanage():
 
     pagination=models.Case.query.paginate(1, 13, False)
     Cases=pagination.items
-    return render_template("case.html",
+    return render_template("case_edit.html",
                             pagination=pagination,
                             Cases=Cases,
                             Name=request.cookies['Name'])
@@ -552,6 +561,7 @@ def getShowCaseByName():
 '''
 @app.route('/createCase',methods=['GET','POST'])
 def createCase():
+
     Case_dic={}
     case_fir_dic={}
     InterF=[]
@@ -584,6 +594,8 @@ def createCase():
     jsondata=json.dumps(Case_dic, indent=2)
     fp = os.getcwdu()
     path=fp[0:fp.find('Flask')]+'Flask'+os.path.sep+"app"+os.path.sep+"Cases"+os.path.sep+CaseName+".txt"
+    if os.path.exists(fp[0:fp.find('Flask')]+'Flask'+os.path.sep+"app"+os.path.sep+"Cases")!=True:
+        os.mkdir(fp[0:fp.find('Flask')]+'Flask'+os.path.sep+"app"+os.path.sep+"Cases")
     with open(path,'w') as f:
         f.write(jsondata)
     f.close()
@@ -606,5 +618,18 @@ def case_serach():
                             Cases=Cases,
                             pagination=pagination,
                             Name=request.cookies['Name'])
+
+
+
+'''
+mock功能需求
+'''
+
+@app.route('/<path:path>')
+@login_required
+def getoath(path):
+    return path
+
+
 
 

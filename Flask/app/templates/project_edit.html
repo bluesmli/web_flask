@@ -9,6 +9,22 @@
         项目名称:<input type="text" name="name" class="name" >
     {% endif %}
 
+
+    {% if Name %}
+        开发人员:<input type="text" name="developer" class="developer" value="{{ developer }}">
+    {% else %}
+        开发人员:<input type="text" name="developer" class="developer" >
+    {% endif %}
+
+
+
+    {% if Name %}
+        测试人员:<input type="text" name="tester" class="tester" value="{{ tester }}">
+    {% else %}
+        测试人员:<input type="text" name="tester" class="tester" >
+    {% endif %}
+
+
     项目状态:<select name="status">
 			  <option value ="未开始">未开始</option>
 			  <option value ="已开始">已开始</option>

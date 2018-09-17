@@ -17,6 +17,8 @@
       <tr>
          <th>序号 </th>
          <th>项目名称</th>
+          <th>开发人员</th>
+          <th>测试人员</th>
           <th>项目状态</th>
          <th colspan="2" >操作</th>
       </tr>
@@ -24,11 +26,13 @@
         <tr>
         <td>{{ loop.index }}</td>
         <td>{{ pro.name }}</td>
-        {% if pro.status==0 %}
+        <td>{{ pro.developer }}</td>
+        <td>{{ pro.tester }}</td>
+        {% if pro.status=="0" %}
             <td>未开始</td>
-        {% elif pro.status==1%}
+        {% elif pro.status=="1" %}
             <td>已开始</td>
-        {% elif pro.status==2%}
+        {% elif pro.status=="2"%}
             <td>测试中</td>
         {% else %}
             <td>已完成</td>
@@ -38,7 +42,7 @@
         </tr>
     {% endfor %}
     </table>
-    <div class="pages" style="text-align: right;">
+    <div class="pages" style="text-align: center;">
         {% if pagination %}
             {% import 'help.html' as helper %}
             {{ helper.return_page_data(pagination,'project_page') }}

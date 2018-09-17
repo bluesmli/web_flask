@@ -18,6 +18,12 @@ class Models(db.Model):
     id=db.Column(db.Integer, primary_key = True,autoincrement=True)
     name=db.Column(db.String(64), unique = True)                            #项目名称
     status = db.Column(db.Integer)                                          #状态
+    developer = db.Column(db.String(50))  # 用户名
+    tester = db.Column(db.String(50))
+
+
+
+
 
 class Interfaces(db.Model):
     id=db.Column(db.Integer, primary_key = True,autoincrement=True)
@@ -28,7 +34,7 @@ class Interfaces(db.Model):
     interface_way=db.Column(db.String(10))                                  #方法
     interface_header=db.Column(db.String(100))                              #头信息
     interface_cookie=db.Column(db.String(100))                              #cookie
-    Assertion=db.Column(db.String(100))
+    Assertion=db.Column(db.String())
     caseName=db.Column(db.String(100))
 
 class Case(db.Model):

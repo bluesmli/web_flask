@@ -9,7 +9,8 @@
     <meta charset="UTF-8">
     <title>接口自动化测试平台</title>
     <style type="text/css">
-        h2{
+
+h2{
     font-size: 20px;
     color: #010202;
 }
@@ -98,9 +99,9 @@ ul li a:hover{
 </head>
 <body>
     <div  class="page-container">
-        <h2 style="color: white">接口自动化测试平台</h2></td>
+        <h2 style="color: white">测试平台</h2></td>
          <div class="logout">
-            <span style="color: white">{{ Name }}</span>
+            <span style="color: white">欢迎您,{{ Name }}</span>
              <span></span>
              <span></span>
              <span></span>
@@ -109,13 +110,12 @@ ul li a:hover{
     </div>
     <div class="left">
          <ul class="nav nav-pills nav-stacked" >
-            <li><a href="#">首页</a></li>
+{#            <li><a href="#">首页</a></li>#}
             <li><a href="{{ url_for('usermanege') }}">用户管理</a></li>
             <li><a href="{{ url_for('projects') }}">项目管理</a></li>
-            <li><a href="{{ url_for('interfacemanage') }}">接口管理</a></li>
-            <li><a href="{{ url_for('interfaces_test') }}">接口测试</a></li>
+{#            <li><a href="{{ url_for('interfacemanage') }}">接口管理</a></li>#}
             <li><a href="{{ url_for('casemanage') }}">用例管理</a></li>
-            <li><a href="#">测试报告</a></li>
+
         </ul>
     </div>
 
@@ -127,7 +127,25 @@ ul li a:hover{
 
 
     </div>
+<script type="text/javascript">
 
+    function save() {
+
+        $.ajax({
+
+            url: "test.html",
+            context: document.body,
+            success: function(){
+                $(this).addClass("done");
+         }});
+
+
+    }
+
+
+
+
+</script>
 
 </body>
 </html>

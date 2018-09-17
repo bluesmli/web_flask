@@ -1,0 +1,46 @@
+{
+  "Case": {
+    "ProjectName": "", 
+    "Interfaces": [
+      {
+        "InterfaceName": "we ", 
+        "url": "", 
+        "RequestHeaders": "", 
+        "Param": "", 
+        "Assert": "", 
+        "way": "GET", 
+        "id": 65
+      }, 
+      {
+        "InterfaceName": "etsrwfef", 
+        "url": "http://127.0.0.1:5000/CaseInterface_add", 
+        "RequestHeaders": "", 
+        "Param": "", 
+        "Assert": "", 
+        "way": "GET", 
+        "id": 66
+      }, 
+      {
+        "InterfaceName": "asdf", 
+        "url": "http://127.0.0.1:5000/CaseInterface_add", 
+        "RequestHeaders": "", 
+        "Param": "", 
+        "Assert": "", 
+        "way": "GET", 
+        "id": 67
+      }, 
+      {
+        "InterfaceName": "http://127.0.0.1:5000/CaseInterface_add112243443", 
+        "url": "", 
+        "RequestHeaders": "http://127.0.0.1:5000/CaseInterface_add", 
+        "Param": "http://127.0.0.1:5000/CaseInterface_add", 
+        "Assert": "", 
+        "way": "GET", 
+        "id": 71
+      }
+    ], 
+    "Runstatus": 0, 
+    "CaseName": "test", 
+    "Casedescription": "test"
+  }
+}

@@ -23,6 +23,11 @@ class project_editForm(FlaskForm):
     name=StringField('name',validators=[DataRequired()])
     status=StringField('status',validators=[DataRequired])
     id=StringField('id',validators=[DataRequired])
+    developer=StringField('developer',validators=[DataRequired()])
+    tester = StringField('tester', validators=[DataRequired()])
+
+
+
 
 class projectsForm(FlaskForm):
     projectname=StringField('projectname',validators=[DataRequired()])

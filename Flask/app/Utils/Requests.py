@@ -35,13 +35,13 @@ def getReq(path,bool_redict,headers={},cookies={}):
 		print e.message
 
 
-def postReq(path,data,bool_redict,headers={},cookies={},):
+def postReq(path,data,bool_redrect,headers={},cookies={},):
     try:
        req=requests.post(path,
        					 data,
                          cookies=cookies,
                          headers=headers,
-                         allow_redirects=bool_redict,
+                         allow_redirects=bool_redrect,
                          verify=False
                          )
        #解决编码
@@ -60,3 +60,5 @@ def postReq(path,data,bool_redict,headers={},cookies={},):
 		print e.message
 
 
+if __name__ == '__main__':
+    getReq("http://www.baidu.com",True)

@@ -1,0 +1,19 @@
+{
+  "Case": {
+    "ProjectName": "", 
+    "Interfaces": [
+      {
+        "InterfaceName": "yuio", 
+        "url": "76yuio", 
+        "RequestHeaders": "7yui", 
+        "Param": "", 
+        "Assert": "", 
+        "way": "GET", 
+        "id": 73
+      }
+    ], 
+    "Runstatus": 0, 
+    "CaseName": "12345", 
+    "Casedescription": "67ui"
+  }
+}

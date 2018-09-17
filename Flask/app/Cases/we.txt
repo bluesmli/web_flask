@@ -1,0 +1,19 @@
+{
+  "Case": {
+    "ProjectName": "", 
+    "Interfaces": [
+      {
+        "InterfaceName": "http://127.0.0.1:5000/CaseInterface_add", 
+        "url": "", 
+        "RequestHeaders": "", 
+        "Param": "", 
+        "Assert": "", 
+        "way": "GET", 
+        "id": 68
+      }
+    ], 
+    "Runstatus": 0, 
+    "CaseName": "we", 
+    "Casedescription": ""
+  }
+}
