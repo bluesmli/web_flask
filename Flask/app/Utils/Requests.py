@@ -1,10 +1,8 @@
-#coding:utf-8
+
 import requests
 import traceback
 import sys
 
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 
 
@@ -16,9 +14,9 @@ def getReq(path,bool_redict,headers={},cookies={}):
                          allow_redirects=bool_redict,
                          # verify=False
                          )
-       print req.content
+       print (req.content)
        #解决编码
-       print req.encoding
+       print (req.encoding)
        if req.encoding is not None:
            if str(req.encoding.lower()).find('iso-8859-1')!=-1:
                 return str(req.content),req.headers,req
@@ -31,8 +29,8 @@ def getReq(path,bool_redict,headers={},cookies={}):
        else:
             return req.content,req.headers,req
     except Exception as e:
-		print traceback.format_exc()
-		print e.message
+        print (traceback.format_exc())
+        print (e.message)
 
 
 def postReq(path,data,bool_redrect,headers={},cookies={},):
@@ -56,8 +54,7 @@ def postReq(path,data,bool_redrect,headers={},cookies={},):
        else:
             return req.content,req.headers,req
     except Exception as e:
-		print traceback.format_exc()
-		print e.message
+        print (e.message)
 
 
 if __name__ == '__main__':

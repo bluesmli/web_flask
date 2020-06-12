@@ -1,0 +1,730 @@
+2020-06-12 16:23:52,229 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:23:52,229 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:23:52,229 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:23:52,230 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:23:52,230 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:23:52,230 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:23:52,230 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:25:01,266 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:25:01,271 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:25:01,271 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:25:01,272 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:25:01,272 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:25:01,272 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:25:01,272 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:27:09,818 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:27:09,818 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:27:09,818 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:27:09,819 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:27:09,819 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:27:09,819 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:27:09,819 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:27:30,858 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:27:30,863 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:27:30,863 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:27:30,864 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:27:30,864 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:27:30,864 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:27:30,864 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:29:03,329 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:29:03,329 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:29:03,329 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:29:03,329 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:29:03,330 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:29:03,330 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:29:03,330 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:29:27,976 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:29:27,977 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:29:27,977 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:29:27,977 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:29:27,977 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:29:27,978 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:29:27,978 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:29:49,714 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:29:49,714 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:29:49,714 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:29:49,714 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:29:49,715 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:29:49,715 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:29:49,715 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:30:22,770 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/projects
+2020-06-12 16:30:22,770 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:30:22,770 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:22,770 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:22,771 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:22,771 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([('pagenum', '1'), ('pagesize', '20')])
+2020-06-12 16:30:22,771 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:30:24,226 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/getproByid
+2020-06-12 16:30:24,226 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>OPTIONS
+2020-06-12 16:30:24,226 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:24,227 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:8010
+Sec-Fetch-Mode: cors
+Referer: http://localhost:8010/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:24,227 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:24,227 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:30:24,227 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:30:24,238 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/getproByid
+2020-06-12 16:30:24,238 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>POST
+2020-06-12 16:30:24,238 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:24,238 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Content-Length: 9
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:24,238 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:24,239 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:30:24,239 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------{'id': 51}
+2020-06-12 16:30:27,304 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/editProject
+2020-06-12 16:30:27,305 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>OPTIONS
+2020-06-12 16:30:27,305 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:27,305 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:8010
+Sec-Fetch-Mode: cors
+Referer: http://localhost:8010/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:27,305 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:27,306 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:30:27,306 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:30:27,323 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/editProject
+2020-06-12 16:30:27,323 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>POST
+2020-06-12 16:30:27,323 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:27,324 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Content-Length: 72
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:27,324 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:27,324 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:30:27,324 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------{'id': 51, 'project_name': 'RCBP-TEST', 'project_desc': '融卡测试项目'}
+2020-06-12 16:30:27,382 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/projects
+2020-06-12 16:30:27,383 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:30:27,383 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:27,383 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:27,384 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:27,384 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([('pagenum', '1'), ('pagesize', '20')])
+2020-06-12 16:30:27,384 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:30:30,195 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:30:30,198 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:30:30,199 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:30,199 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:30,199 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:30,199 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:30:30,200 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:30:38,876 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:30:38,876 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:30:38,876 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:38,876 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:38,877 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:38,877 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:30:38,877 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:30:56,986 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:30:56,986 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:30:56,987 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:30:56,987 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:30:56,987 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:30:56,987 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:30:56,987 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:31:14,301 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:31:14,301 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:31:14,301 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:31:14,301 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:31:14,301 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:31:14,302 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:31:14,302 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:31:17,987 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/projects
+2020-06-12 16:31:17,987 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:31:17,988 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:31:17,988 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:31:17,988 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:31:17,988 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([('pagenum', '1'), ('pagesize', '20')])
+2020-06-12 16:31:17,989 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:34:30,587 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:34:30,587 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:34:30,587 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:34:30,587 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:34:30,588 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:34:30,588 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:34:30,588 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:34:46,267 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:34:46,268 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:34:46,268 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:34:46,268 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:34:46,268 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:34:46,268 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:34:46,269 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:35:25,588 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:35:25,588 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:35:25,588 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:35:25,588 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:35:25,589 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:35:25,589 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:35:25,589 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:36:26,315 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:36:26,315 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:36:26,315 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:36:26,315 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:36:26,316 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:36:26,316 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:36:26,316 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:42:15,314 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:42:15,314 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:42:15,314 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:42:15,315 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:42:15,315 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:42:15,315 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:42:15,315 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:42:21,960 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:42:21,960 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:42:21,961 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:42:21,961 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:42:21,961 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:42:21,961 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:42:21,961 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:43:20,635 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:43:20,636 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:43:20,636 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:43:20,636 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:43:20,636 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:43:20,637 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:43:20,637 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:43:26,882 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:43:26,882 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:43:26,882 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:43:26,882 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:43:26,882 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:43:26,882 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:43:26,883 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:54:34,322 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:54:35,070 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:54:35,071 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:54:35,071 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:54:35,071 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:54:35,071 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:54:35,072 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:59:18,482 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:59:18,482 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:59:18,482 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:59:18,482 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:59:18,482 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:59:18,483 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:59:18,483 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:59:25,287 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 16:59:25,287 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>OPTIONS
+2020-06-12 16:59:25,287 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:59:25,288 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:8010
+Sec-Fetch-Mode: cors
+Referer: http://localhost:8010/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:59:25,288 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:59:25,288 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:59:25,288 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:59:25,300 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 16:59:25,301 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>POST
+2020-06-12 16:59:25,301 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:59:25,301 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Content-Length: 385
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:59:25,301 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:59:25,302 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:59:25,302 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------{'apiname': 'adfas', 'apidesc': 'dasdasdas', 'apiurl': None, 'belongpro': None, 'options': [{'create_time': 'Tue, 09 Jun 2020 09:48:42 GMT', 'id': 51, 'project_desc': '融卡测试项目', 'project_name': 'RCBP-TEST', 'update_time': 'Thu, 11 Jun 2020 09:21:16 GMT'}], 'requestway': None, 'headerinfo': [], 'body': None, 'parameters': [], 'type': ['int', 'string', 'float', 'JSON', 'Boolean', 'list'], 'actualtype': None}
+2020-06-12 16:59:27,437 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:59:27,438 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:59:27,438 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:59:27,438 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:59:27,438 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:59:27,438 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:59:27,438 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:59:29,694 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:59:29,695 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:59:29,695 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:59:29,695 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:59:29,695 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:59:29,695 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:59:29,696 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 16:59:38,245 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 16:59:38,246 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 16:59:38,246 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 16:59:38,246 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 16:59:38,246 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 16:59:38,247 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 16:59:38,247 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:00:20,377 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:00:20,377 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:00:20,377 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:00:20,377 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:00:20,377 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:00:20,377 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:00:20,377 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:08:02,213 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:08:02,214 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:08:02,214 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:08:02,214 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:08:02,214 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:08:02,215 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:08:02,215 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:08:14,807 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:08:14,807 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:08:14,807 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:08:14,808 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:08:14,808 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:08:14,808 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:08:14,808 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:08:17,303 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 17:08:17,303 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>OPTIONS
+2020-06-12 17:08:17,303 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:08:17,304 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:8010
+Sec-Fetch-Mode: cors
+Referer: http://localhost:8010/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:08:17,304 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:08:17,304 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:08:17,304 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:08:17,319 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 17:08:17,319 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>POST
+2020-06-12 17:08:17,319 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:08:17,320 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Content-Length: 383
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:08:17,320 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:08:17,320 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:08:17,320 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------{'apiname': 'erw', 'apidesc': 'rwerwerwe', 'apiurl': None, 'belongpro': None, 'options': [{'create_time': 'Tue, 09 Jun 2020 09:48:42 GMT', 'id': 51, 'project_desc': '融卡测试项目', 'project_name': 'RCBP-TEST', 'update_time': 'Thu, 11 Jun 2020 09:21:16 GMT'}], 'requestway': None, 'headerinfo': [], 'body': None, 'parameters': [], 'type': ['int', 'string', 'float', 'JSON', 'Boolean', 'list'], 'actualtype': None}
+2020-06-12 17:08:20,238 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:08:20,238 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:08:20,238 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:08:20,239 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:08:20,239 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:08:20,239 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:08:20,239 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:08:23,310 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:08:23,310 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:08:23,310 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:08:23,310 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:08:23,311 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:08:23,311 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:08:23,311 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:11:00,741 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:11:00,741 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:11:00,741 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:11:00,741 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:11:00,741 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:11:00,742 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:11:00,742 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:11:47,393 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:11:47,394 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:11:47,395 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:11:47,395 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:11:47,395 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:11:47,395 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:11:47,395 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:11:53,746 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 17:11:53,746 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>OPTIONS
+2020-06-12 17:11:53,746 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:11:53,747 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:8010
+Sec-Fetch-Mode: cors
+Referer: http://localhost:8010/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:11:53,747 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:11:53,747 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:11:53,747 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:11:53,755 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 17:11:53,755 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>POST
+2020-06-12 17:11:53,755 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:11:53,756 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Content-Length: 390
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:11:53,756 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:11:53,756 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:11:53,756 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------{'apiname': 'qwewqewq', 'apidesc': 'awq', 'apiurl': 'ad', 'belongpro': 'RCBP-TEST', 'options': [{'create_time': 'Tue, 09 Jun 2020 09:48:42 GMT', 'id': 51, 'project_desc': '融卡测试项目', 'project_name': 'RCBP-TEST', 'update_time': 'Thu, 11 Jun 2020 09:21:16 GMT'}], 'requestway': 'get', 'headerinfo': [], 'body': None, 'parameters': [], 'type': ['int', 'string', 'float', 'JSON', 'Boolean', 'list'], 'actualtype': None}
+2020-06-12 17:11:57,489 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:11:57,489 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:11:57,489 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:11:57,490 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:11:57,490 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:11:57,490 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:11:57,490 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:12:09,615 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:12:09,619 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:12:09,619 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:12:09,619 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:12:09,619 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:12:09,620 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:12:09,620 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:12:37,420 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:12:37,420 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:12:37,421 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:12:37,421 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:12:37,421 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:12:37,421 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:12:37,421 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:12:40,945 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 17:12:40,946 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>OPTIONS
+2020-06-12 17:12:40,946 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:12:40,946 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:8010
+Sec-Fetch-Mode: cors
+Referer: http://localhost:8010/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:12:40,946 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:12:40,947 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:12:40,947 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None
+2020-06-12 17:12:40,958 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/addapi
+2020-06-12 17:12:40,958 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>POST
+2020-06-12 17:12:40,958 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:12:40,958 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Content-Length: 385
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:12:40,959 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:12:40,959 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:12:40,959 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------{'apiname': 'asd', 'apidesc': 'adadas', 'apiurl': 'dasdasd', 'belongpro': None, 'options': [{'create_time': 'Tue, 09 Jun 2020 09:48:42 GMT', 'id': 51, 'project_desc': '融卡测试项目', 'project_name': 'RCBP-TEST', 'update_time': 'Thu, 11 Jun 2020 09:21:16 GMT'}], 'requestway': None, 'headerinfo': [], 'body': None, 'parameters': [], 'type': ['int', 'string', 'float', 'JSON', 'Boolean', 'list'], 'actualtype': None}
+2020-06-12 17:12:43,912 - /Users/limeng/web_flask/Flask/app/views.py[line:24] - INFO: 请求地址------>/allprojects
+2020-06-12 17:12:43,913 - /Users/limeng/web_flask/Flask/app/views.py[line:25] - INFO: 请求方法------>GET
+2020-06-12 17:12:43,913 - /Users/limeng/web_flask/Flask/app/views.py[line:26] - INFO: |------请求headers--start----|
+2020-06-12 17:12:43,913 - /Users/limeng/web_flask/Flask/app/views.py[line:27] - INFO: Host: 11.0.0.63:5000
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Origin: http://localhost:8010
+Referer: http://localhost:8010/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+2020-06-12 17:12:43,913 - /Users/limeng/web_flask/Flask/app/views.py[line:28] - INFO: |------请求headers--end------|
+2020-06-12 17:12:43,913 - /Users/limeng/web_flask/Flask/app/views.py[line:29] - INFO: GET参数------>ImmutableMultiDict([])
+2020-06-12 17:12:43,913 - /Users/limeng/web_flask/Flask/app/views.py[line:30] - INFO: POST参数------None

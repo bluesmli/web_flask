@@ -1,0 +1,4 @@
+
+STATUS_OK = 200
+SUCCESS = "成功"
+STATUS_FAIL = 500
