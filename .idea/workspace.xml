@@ -2,82 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab3bb04-fc55-445b-8d9d-cba34633bcad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask/app/Utils/log.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask/app/Utils/resObj.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask/app/Utils/responseCode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask/app/Utils/timeUtils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask/tmp/error.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask/tmp/info.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/dataSources/4fd3b4be-07ae-4b34-9bcd-04f426c60711.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/Cases/12345.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/Cases/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/Cases/testweser.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/Cases/we.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/Cases/接口测试.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/form.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/supersized.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/css/util.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/backgrounds/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/backgrounds/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/backgrounds/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/login.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/login_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/img/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/jquery-2.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/supersized-init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/supersized.3.2.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/static/js/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/CaseInterface_add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/case_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/help.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/interface.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/interfaceManage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/interface_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/project_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/user_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Flask/app/templates/welcome.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/app/Utils/Requests.py" afterPath="$PROJECT_DIR$/Flask/app/Utils/Requests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/app/__init__.py" afterPath="$PROJECT_DIR$/Flask/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/app/models.py" afterPath="$PROJECT_DIR$/Flask/app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/app/views.py" afterPath="$PROJECT_DIR$/Flask/app/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/config.py" afterPath="$PROJECT_DIR$/Flask/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/db.ini" afterPath="$PROJECT_DIR$/Flask/db.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/tmp/run.py" afterPath="$PROJECT_DIR$/Flask/tmp/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flask/tmp/info.log" afterPath="$PROJECT_DIR$/Flask/tmp/info.log" />
     </list>
     <ignored path="web_flask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,8 +31,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flask/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="264">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -611,17 +537,25 @@
       <option name="presentableId" value="Default" />
       <updated>1504085489335</updated>
     </task>
+    <task id="LOCAL-00001" summary="接口测试后台大改，精简项目">
+      <created>1591953418421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591953418421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7481928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36746988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17688513" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -657,6 +591,24 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -667,6 +619,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="接口测试后台大改，精简项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口测试后台大改，精简项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -989,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Flask/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="264">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
